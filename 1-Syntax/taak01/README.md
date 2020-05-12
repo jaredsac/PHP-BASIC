@@ -23,7 +23,7 @@ Kijk maar eens naar de syntax van een echo statement op: https://www.w3schools.c
 ## Leerdoelen
 >1. [ ] Ik weet wat syntax is
 >2. [ ] Ik volg de juiste regels bij het schrijven van code
->3. [ ] Ik ken (een deel van) de verschillende karakters die in PHP voorkomen
+>3. [af] Ik ken (een deel van) de verschillende karakters die in PHP voorkomen
 
 ## Opdracht
 
