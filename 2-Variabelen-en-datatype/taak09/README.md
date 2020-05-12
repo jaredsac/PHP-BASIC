@@ -20,7 +20,7 @@ _Voorbeeld:_
 >
 ## Leerdoelen
 >1. [ ] Ik weet wat de string operator: concatenation is
->2. [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement en het gebruik de string operator: `.`
+>2. [AF] Ik kan variabelen en tekst op het scherm tonen met de echo statement en het gebruik de string operator: `.`
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
