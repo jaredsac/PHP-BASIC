@@ -15,7 +15,7 @@ en zet tussen de tags de volgende php code:
 >_Je kan alle html gebruiken die je wilt in een `echo` statement, doe dit wel tussen quotes (")_
 >
 ## Leerdoelen
->1. [ ] Ik kan variabelen en html op het scherm tonen met de echo statement
+>1. [af] Ik kan variabelen en html op het scherm tonen met de echo statement
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
