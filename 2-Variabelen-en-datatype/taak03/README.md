@@ -32,7 +32,7 @@ In PHP heb je verschillende soorten datatypes namelijk:
 >4. [ ] Ik volg de juiste regels voor het maken van een variabele 
 >5. [ ] Ik volg de juiste regels voor het maken van een integer
 >6. [ ] Ik volg de juiste regels voor het maken van een float
->7. [ ] Ik kan de waarde van de variabele op het scherm tonen
+>7. [AF] Ik kan de waarde van de variabele op het scherm tonen
 
 ## Opdracht
 
