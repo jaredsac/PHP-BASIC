@@ -11,7 +11,7 @@ en je weet dat je het datatype van een variabele kan opvragen met de ingebouwde 
 >4. [ ] Ik weet wat de verschillende datatype zijn
 >5. [ ] Ik maak variabele met verschillende datatype aan in PHP
 >6. [ ] Ik volg de juiste regels voor de verschillende datatype
->7. [ ] Ik weet wat gettype() is
+>7. [af] Ik weet wat gettype() is
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
