@@ -25,7 +25,7 @@
 
 ## Leerdoelen
 
-> 1.  [ ] Ik codeer een andere waarde op een specifieke index
+> 1.  [af] Ik codeer een andere waarde op een specifieke index
 
 ## Opdracht
 
