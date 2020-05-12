@@ -14,7 +14,7 @@ Met PHP kan je variabelen en tekst (gewone tekst of html code) samen via `echo` 
 ```
 >
 ## Leerdoelen
->1. [ ] Ik kan variabelen en tekst op het scherm tonen met de echo statement
+>1. [af] Ik kan variabelen en tekst op het scherm tonen met de echo statement
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
