@@ -33,7 +33,7 @@ Null is een speciaal datatype en kan alleen de waarde null bevatten, een variabe
 >3. [ ] Ik maak een variabele leeg in PHP
 >4. [ ] Ik volg de juiste regels voor het maken van een variabele 
 >5. [ ] Ik volg de juiste regels voor het maken van een boolean
->7. [ ] Ik kan de waarde van de variabele op het scherm tonen
+>7. [afS] Ik kan de waarde van de variabele op het scherm tonen
 
 ## Opdracht
 
