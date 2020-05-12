@@ -27,7 +27,7 @@ Stel we hebben een variabele $voornaam met de waarde Tom en we willen weten wat 
 >_int(12)_ 
 >
 ## Leerdoelen
->1. [ ] Ik kan via var_dump() het datatype en de waarde van een variabele op het scherm tonen
+>1. [af] Ik kan via var_dump() het datatype en de waarde van een variabele op het scherm tonen
 
 ## Opdracht
 
