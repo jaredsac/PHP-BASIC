@@ -22,16 +22,16 @@ Hoe jij dingen onthoudt bepaal je zelf. Een programeertaal moet je vertellen hoe
 >* Om php op het scherm te tonen gebruik je het commando `echo`  gevolgd door een spatie en de waarde die je wilt tonen dus `<?php echo waarde ?>`
 
 ## Leerdoelen
->1. [ ] Ik weet wat een variabele is
->2. [ ] Ik maak een variabele aan in PHP
->3. [ ] Ik volg de juiste regels voor het maken van een variabele
->4. [ ] Ik kan de waarde van een variabele op het scherm tonen
+>1. [x] Ik weet wat een variabele is
+>2. [x] Ik maak een variabele aan in PHP
+>3. [x] Ik volg de juiste regels voor het maken van een variabele
+>4. [x] Ik kan de waarde van een variabele op het scherm tonen
 
 ## Opdracht
 
 >1. Schrijf je code in `index.php`
 >2. Maak een variabele _score_ aan met de waarde 0
->3. Toon de waarde van de variabele _score_ op het scherm met `echo`
+>3. Toon de waarde van de variabele _score_ op het scherm met `echo` (klaar)
 
 ## Eindresultaat
 Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser: 
