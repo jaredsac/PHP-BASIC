@@ -59,7 +59,7 @@ switch($score) {
 ## Leerdoelen
 >1. [ ] ik weet wat een switch statement is
 >2. [ ] Ik maak een een switch statement is
->3. [ ] Ik volg de juiste regels voor het schrijven van een switch statement
+>3. [AG] Ik volg de juiste regels voor het schrijven van een switch statement
 
 ## Opdracht
 
