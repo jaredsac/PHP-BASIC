@@ -35,7 +35,7 @@ Dit is hoe de code er dan uit komt te zien:
 ## Leerdoelen
 >1. [ ] Ik weet wat de verschillende comparison operators zijn
 >2. [ ] Ik toon een vergelijking op het scherm met var_dump()
->3. [ ] Ik volg de juiste regels voor het vergelijken van variabelen
+>3. [AF] Ik volg de juiste regels voor het vergelijken van variabelen
 
 ## Opdracht
 
