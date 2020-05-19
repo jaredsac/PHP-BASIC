@@ -54,7 +54,7 @@ _Let goed op de schrijfwijze, waar staan haakjes en wat staat er tussen de haakj
 ## Leerdoelen
 >1. [ ] ik weet wat een if else statement is
 >2. [ ] Ik maak een if else statement met verschillende vergelijkingen
->3. [ ] Ik volg de juiste regels voor het schrijven van een if else statement
+>3. [AF] Ik volg de juiste regels voor het schrijven van een if else statement
 
 ## Opdracht
 
