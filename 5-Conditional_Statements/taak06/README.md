@@ -31,8 +31,8 @@ if($var1 < 10 && $var1 > 5) {
 >
 ## Leerdoelen
 >1. [ ] ik weet wat logical operators zijn
->2. [ ] Ik gebruik logical operators in een conditional statement
->3. [ ] Ik volg de juiste regels voor het schrijven van een logical operator
+>2. [af] Ik gebruik logical operators in een conditional statement
+>3. [af] Ik volg de juiste regels voor het schrijven van een logical operator
 
 ## Opdracht
 >1. Schrijf je code in `index.php`
