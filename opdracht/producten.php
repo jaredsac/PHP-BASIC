@@ -35,22 +35,22 @@
             <tr>
                 <td>3</td>
                 <td>bananen</td>
-                <td>2,30</td>
+                <td>2,55</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Druven</td>
-                <td>0,30</td>
+                <td>Druiven</td>
+                <td>2,35</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>GrapeFruit</td>
-                <td>0,30</td>
+                <td>Lemoen</td>
+                <td>1,30</td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>mango</td>
-                <td>0,30</td>
+                <td>0,45</td>
             </tr>
             <tr>
                 <td>7</td>
