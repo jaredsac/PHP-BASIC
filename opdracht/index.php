@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <?php require 'includes/menu.php';?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Title</title> 
@@ -16,5 +17,6 @@
     <p>Het datatype van de waarde: <?php getInput(); ?> is </p>
 
     </form><!-- dit laten staan! -->
+    <?php require 'includes/footer.php';?>
   </body>
 </html>

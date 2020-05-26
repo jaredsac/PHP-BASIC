@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Title</title>
     <?php include 'includes/functions.php';?>
+    <?php include 'includes/menu.php';?>
   </head>
     <form action="producten.php" method="get"><!-- dit laten staan! -->
 
@@ -26,6 +27,46 @@
                 <td>peren</td>
                 <td>0,30</td>
             </tr>
+            <tr>
+                <td>2</td>
+                <td>meloen</td>
+                <td>1,30</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>bananen</td>
+                <td>2,30</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Druven</td>
+                <td>0,30</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>GrapeFruit</td>
+                <td>0,30</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>mango</td>
+                <td>0,30</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Citroen</td>
+                <td>0,30</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>pruim</td>
+                <td>0,70</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>perzik</td>
+                <td>0,50</td>
+            </tr>
         </table>
 
     <p>Vul hieronder het productnummer in van het product wat je wilt bestellen en de hoeveelheid.</p> 
@@ -38,5 +79,6 @@
     <p>je bent <?php getAge(); ?> je korting is: </p>
 
     </form><!-- dit laten staan! -->
+    <?php include 'includes/footer.php';?>
   </body>
 </html>
