@@ -76,7 +76,7 @@
     <p><label>leeftijd: </label><input type="text" name="leeftijd"></p><!-- dit laten staan! -->
     <p><button type="submit" name="submit">Bereken totaal</button></p><!-- dit laten staan! -->
     <p>voor <?php getAmount(); ?> x het product: <?php getProductNr(); ?> betaal je:</p>
-    <p>je bent <?php getAge(); ?> je korting is: </p>
+    <p>je bent <?php getAge(); ?> je korting is:</p>
 
     </form><!-- dit laten staan! -->
     <?php include 'includes/footer.php';?>

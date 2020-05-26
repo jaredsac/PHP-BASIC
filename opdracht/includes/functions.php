@@ -29,6 +29,33 @@ function getAge()
 {
     $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
     echo $leeftijd;
+
+   
 }
 
+/*function getKorting()
+{
+    global $leeftijd;
+
+    switch($leeftijd) {
+        case 20:
+        echo 20 . "\n" ."cent";
+        break;
+        case 19:
+        echo 19 . "\n" ."cent";
+        break;
+        case 18:
+        echo 18 . "\n" ."cent";
+        break;
+        case 17:
+        echo 17 . "\n" ."cent";
+        break;
+        default:
+        echo 1 . "\n" ."euro";
+    }
+}*/
+
+function getTotaal() {
+    
+}
 ?>
