@@ -1,1 +1,7 @@
+Eindopdracht
+
+Een kleine applicatie maken
+Ik heb een include nodig
+Er moet korting komen 
+Er moet een switch in komen zo dat je kan zie hoeveel korting je krijgt
 
