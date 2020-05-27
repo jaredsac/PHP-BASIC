@@ -18,54 +18,54 @@
                 <th>prijs per stuk</th>
             </tr>
             <tr>
-                <td>0</td>
-                <td>appels</td>
-                <td>0,25</td>
-            </tr>
-            <tr>
                 <td>1</td>
-                <td>peren</td>
-                <td>0,30</td>
+                <td>appels</td>
+                <td>2,00</td>
             </tr>
             <tr>
                 <td>2</td>
+                <td>peren</td>
+                <td>2,50</td>
+            </tr>
+            <tr>
+                <td>3</td>
                 <td>meloen</td>
                 <td>1,30</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>bananen</td>
-                <td>2,55</td>
-            </tr>
-            <tr>
                 <td>4</td>
-                <td>Druiven</td>
-                <td>2,35</td>
+                <td>bananen</td>
+                <td>2,5</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Lemoen</td>
-                <td>1,30</td>
+                <td>Druiven</td>
+                <td>2,00</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>mango</td>
-                <td>0,45</td>
+                <td>Lemoen</td>
+                <td>0,50</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Citroen</td>
-                <td>0,30</td>
+                <td>mango</td>
+                <td>1,54</td>
             </tr>
             <tr>
                 <td>8</td>
+                <td>Citroen</td>
+                <td>0,55</td>
+            </tr>
+            <tr>
+                <td>9</td>
                 <td>pruim</td>
                 <td>0,70</td>
             </tr>
             <tr>
-                <td>9</td>
+                <td>10</td>
                 <td>perzik</td>
-                <td>0,50</td>
+                <td>1,00</td>
             </tr>
         </table>
 
@@ -75,8 +75,8 @@
     <p>Vul je leeftijd in voor korting</p>
     <p><label>leeftijd: </label><input type="text" name="leeftijd"></p><!-- dit laten staan! -->
     <p><button type="submit" name="submit">Bereken totaal</button></p><!-- dit laten staan! -->
-    <p>voor <?php getAmount(); ?> x het product: <?php getProductNr(); ?> betaal je:</p>
-    <p>je bent <?php getAge(); ?> je korting is:</p>
+    <p>voor <?php getAmount(); ?> x het product: <?php getProductNr(); ?> betaal je: <?php getTotaal() ?></p>
+    <p>je bent <?php getAge(); ?> je korting is:  <?php getKorting(); ?> </p>
 
     </form><!-- dit laten staan! -->
     <?php include 'includes/footer.php';?>
