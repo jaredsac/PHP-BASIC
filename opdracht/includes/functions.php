@@ -14,13 +14,6 @@ function getInput()
     echo $input;
 }
 
-    $input = $_GET['input'];
-function getJuist()
-{
-    global $input;
-    echo gettype($input);
-}
-
 
 function getProductNr()
 {       
