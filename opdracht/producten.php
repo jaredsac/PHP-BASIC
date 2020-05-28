@@ -17,58 +17,12 @@
                 <th>product</th>
                 <th>prijs per stuk</th>
             </tr>
+            <?php foreach ($fruits as $row): ?>
             <tr>
-                <td>1</td>
-                <td>appels</td>
-                <td>2,00</td>
+                <td><?php echo implode('</td><td>', $row); ?></td>
             </tr>
-            <tr>
-                <td>2</td>
-                <td>peren</td>
-                <td>2,50</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>meloen</td>
-                <td>1,30</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>bananen</td>
-                <td>2,5</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Druiven</td>
-                <td>2,00</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Lemoen</td>
-                <td>0,50</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>mango</td>
-                <td>1,54</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>Citroen</td>
-                <td>0,55</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>pruim</td>
-                <td>0,70</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>perzik</td>
-                <td>1,00</td>
-            </tr>
+            <?php endforeach; ?>
         </table>
-
     <p>Vul hieronder het productnummer in van het product wat je wilt bestellen en de hoeveelheid.</p> 
     <p><label>productnummer: </label><input type="text" name="productnummer"> &nbsp;&nbsp;<label>aantal: </label><input type="text" name="aantal"></p><!-- dit laten staan! -->
     
