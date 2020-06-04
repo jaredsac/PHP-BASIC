@@ -7,11 +7,12 @@
         "7"=> ['mango', 'prijs'=> 1.59], "8"=> ['citroen(per stuk)', 'prijs'=> 0.55],
         "9"=> ['pruimen', 'prijs'=> 0.70], "10"=> ['perzik', 'prijs'=> 1.00]
     );
+    
 
 function getInput()
 {
     $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
-    echo $input;
+    echo var_dump($input);
 }
 
 
@@ -36,13 +37,14 @@ function getAge()
    
 }
 
-    $leeftijden = $_GET['leeftijd'];
+
 
 function getKorting()
 {
-    global $leeftijden;
+    //global $leeftijd;
+    $leeftijd = $_GET['leeftijd'];
 
-    switch($leeftijden) {
+    switch($leeftijd) {
         case 19:
         echo "19 cent";
         break;
