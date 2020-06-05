@@ -33,35 +33,38 @@ function getAge()
 {
     $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
     echo $leeftijd;
-
-   
 }
 
+function getKorting(){
+    $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
 
-
-function getKorting()
-{
-    //global $leeftijd;
-    $leeftijd = $_GET['leeftijd'];
-
-    switch($leeftijd) {
+   switch($leeftijd) {
+        case 20:
+        echo 0.20 . "cent";
+        break;
         case 19:
-        echo "19 cent";
+        echo 0.19 . "cent";
         break;
         case 18:
-        echo "18 cent";
+        echo 0.18 . "cent";
         break;
         case 17:
-        echo "17 cent";
+        echo 0.17 . "cent";
         break;
         case 16:
-        echo "16 cent";
+        echo 0.16 . "cent";
         break;
-        default:
-        echo "1 euro";
+        case 15:
+        echo 1 . "euro";
+        break;
+        case 14:
+        echo 1 . "euro";
+        break;
+        case 13:
+        echo 1 . "euro";
     }
-
 }
+
 
 function getTotaal() {
     global $fruits;
