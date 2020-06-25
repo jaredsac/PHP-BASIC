@@ -1,4 +1,5 @@
 <?php
+    $discount=NUll;
 
     $fruits = array(
         "1"=> ['appels(3kg)', 'prijs'=> 2.00], "2"=> ['peren(1kg)', 'prijs'=> 2.50],
@@ -37,41 +38,41 @@ function getAge()
 
 function getKorting(){
     $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
-
    switch($leeftijd) {
         case 20:
-        echo 0.20 . "cent";
+        $discount= 0.20;
         break;
         case 19:
-        echo 0.19 . "cent";
+        $discount= 0.19;
         break;
         case 18:
-        echo 0.18 . "cent";
+        $discount= 0.18;
         break;
         case 17:
-        echo 0.17 . "cent";
+        $discount= 0.17;
         break;
         case 16:
-        echo 0.16 . "cent";
+        $discount= 0.16;
         break;
         case 15:
-        echo 1 . "euro";
+        $discount= 1;
         break;
         case 14:
-        echo 1 . "euro";
+        $discount= 1;
         break;
         case 13:
-        echo 1 . "euro";
+        $discount= 1;
     }
 }
 
 
 function getTotaal() {
     global $fruits;
+    global $discount;
 
     if (isset($_GET['productnummer']) && isset($_GET['aantal'])) {
         if(isset($fruits[$_GET['productnummer']])) {
-            echo $fruits[$_GET['productnummer']]['prijs'] * $_GET['aantal'];
+            echo $fruits[$_GET['productnummer']]['prijs'] * $_GET['aantal'] - $discount ;
         }
     }
 }

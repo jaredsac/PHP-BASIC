@@ -13,8 +13,8 @@
     <p>Hieronder een lijst met producten die je bij ons kunt bestellen en de prijs per stuk:</p>
         <table>
             <tr>
-                <th>#</th>
-                <th>product</th>
+                <th>Product</th>
+                <th>Product</th>
                 <th>prijs per stuk</th>
             </tr>
             <?php foreach ($fruits as $row): ?>
